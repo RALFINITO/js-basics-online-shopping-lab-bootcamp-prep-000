@@ -50,6 +50,10 @@ function total() {
 
 function removeFromCart(item) {
   // write your code here
+  for(var i = 0; i < cart.length; i++){
+    ret = ret + cart[i].itemPrice
+  }
+  
 }
 
 function placeOrder(cardNumber) {
