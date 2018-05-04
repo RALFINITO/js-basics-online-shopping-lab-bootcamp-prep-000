@@ -23,13 +23,11 @@ function viewCart() {
   if (cart.length === 0){
     ret = "Your shopping cart is empty."
   }else{
-    ret = "In your cart, you have "
-    for(i=0; i<cart.length;i++){
-      ret = ret + cart[i] +", "
-    }
-    ret = ret.slice(0, ret.length-2);
+    for(i=0; i<cart.length;i++)
+      if(){
+        
+      }
   }
-  console.log(ret)
   return ret
 }
 
