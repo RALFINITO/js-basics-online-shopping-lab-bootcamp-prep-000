@@ -29,10 +29,10 @@ function viewCart() {
         ret = ret + cart[i].itemName + " at $" + cart[i].itemPrice + "."
       }
       if(i < cart.length - 1){
-        
+        ret = ret + cart[i].itemName + " at $" + cart[i].itemPrice + ", "
       }
       if(i > 0 &&  i === cart.length - 1){
-        
+        ret = ret + "and " + cart[i].itemName + " at $" + cart[i].itemPrice + "."
       }
   }
   return ret
