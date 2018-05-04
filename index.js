@@ -25,7 +25,7 @@ function viewCart() {
   }else{
     ret = "In your cart, you have "
     for(var i = 0; i < cart.length;i++)
-      if(i === 0 && cart.length === 1){
+      if(i === 0 && i === cart.length - 1){
         ret = ret + cart[i].itemName + " at $" + cart[i].itemPrice + "."
       }
       if(i < cart.length - 1 && cart.length >= 1){
