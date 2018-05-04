@@ -24,7 +24,7 @@ function viewCart() {
     ret = "Your shopping cart is empty."
   }else{
     ret = "In your cart, you have "
-    for(var i = 0; i < cart.length;i++)
+    for(var i = 0; i < cart.length; i++){
       if(i === 0 && i === cart.length - 1){
         ret = ret + cart[i].itemName + " at $" + cart[i].itemPrice + "."
       }
@@ -34,6 +34,7 @@ function viewCart() {
       if(i > 0 &&  i === cart.length - 1){
         ret = ret + "and " + cart[i].itemName + " at $" + cart[i].itemPrice + "."
       }
+  }
   }
   return ret
 }
