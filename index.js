@@ -23,7 +23,14 @@ function viewCart() {
   if (cart.length === 0){
     ret = "Your shopping cart is empty."
   }else{
+    ret = ""
     for(i=0; i<cart.length;i++)
+      if(){
+        
+      }
+      if(){
+        
+      }
       if(){
         
       }
